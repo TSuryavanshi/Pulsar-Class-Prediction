@@ -74,5 +74,6 @@ The model achieved high performance across all key metrics, proving that it can 
 
 ---
   
-## 💻 Tech StackLanguage: 
-PythonLibraries: Pandas, NumPy, Scikit-learn, Seaborn, Matplotlib
+## 💻 Tech Stack
+- Language: Python
+- Libraries: Pandas, NumPy, Scikit-learn, Seaborn, Matplotlib
