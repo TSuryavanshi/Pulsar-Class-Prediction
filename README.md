@@ -4,9 +4,10 @@
 The goal of this project is to build a robust classification model capable of predicting whether a space observation instance is a Pulsar (1) or not a Pulsar (0).
 
 Pulsars are rare astronomical objects, and identifying them requires high-precision modeling to handle the significant class imbalance in the dataset.
+
 ---
 
-## Challenge:
+## 🧩 Challenge:
 High imbalance due to rare nature of Pulsar stars 
 
 ---
