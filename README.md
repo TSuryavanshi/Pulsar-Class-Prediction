@@ -1,18 +1,18 @@
 # Pulsar Classification for Class Prediction
 
-## 🚀 Project Objective
+## Project Objective
 The goal of this project is to build a robust classification model capable of predicting whether a space observation instance is a Pulsar (1) or not a Pulsar (0).
 
 Pulsars are rare astronomical objects, and identifying them requires high-precision modeling to handle the significant class imbalance in the dataset.
 
 ---
 
-## 🧩 Challenge:
+## Challenge:
 High imbalance due to rare nature of Pulsar stars 
 
 ---
  
-## 📊 Dataset Overview
+## Dataset Overview
 The dataset contains 17,898 entries with features derived from the Integrated Profile and the DM-SNR Curve of the observations.
 
 ### Features:
@@ -31,7 +31,7 @@ Radio waves emitted from pulsars reach Earth through space filled with free elec
 
 ---
 
-## 🛠️ Data Analysis & Preprocessing
+## Data Analysis & Preprocessing
 ### 1. Data Understanding
 - Imbalance Handling: Class 0 has 16,259 entries while Class 1 only has 1,640.
 - Correlation Insights: Features like EK and Skewness show high positive correlation with the Target Class, while Mean_Integrated shows high negative correlation.
@@ -44,7 +44,7 @@ Radio waves emitted from pulsars reach Earth through space filled with free elec
 
 ---
 
-## 🤖 Model Building
+## Model Building
 I utilized a Random Forest Classifier for this task.
 
 ### Why Random Forest?
@@ -58,7 +58,7 @@ I utilized a Random Forest Classifier for this task.
 
 ---
 
-## 📈 Evaluation Results
+## Evaluation Results
 The model achieved high performance across all key metrics, proving that it can identify rare Pulsars without sacrificing overall accuracy.
 
 - MetricScoreAccuracy --> 98.35%
